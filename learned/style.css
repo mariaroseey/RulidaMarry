@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000;
+}
+
+
+
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+h3 {
+    color: white;
+}
+
+span {
+    color: #FFA500; /* Orange color for the span */
+}
+
+.box {
+    background-color: #fff;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+}
+.header {
+    background: radial-gradient(circle, #0f1228, #000); /* Galaxy background */
+    text-align: center;
+    padding: 20px;
+    display: flex;
+}
+
+.header li {
+    list-style-type: none;
+    margin: 20px;
+}
+
+.header li a {
+    text-decoration: none;
+    color: #fff; /* link color */
+}
